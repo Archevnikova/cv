@@ -1,0 +1,35 @@
+@import url("./navigation.scss");
+
+.header{
+    &__navigation{
+        padding-top:95px;
+        padding-bottom: 147px;
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        background-image: url("./../../img/avatar.png");
+        background-repeat: no-repeat;
+        width: 615px;
+        height: 859px;
+    }
+    &__text{
+        text-align: center;
+    }
+    &__description{
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__btn{
+        padding-top: 45px;
+        text-align: center;
+        & > a:nth-child(1){
+            margin-right: 76px; 
+        }
+    }
+
+}
+
+
+

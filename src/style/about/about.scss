@@ -1,0 +1,22 @@
+.about-me{
+    max-width: 1006px;
+    display: flex;
+    margin:0 auto;
+    &__header{
+        padding: 69px 0px 32px 0px; 
+    }
+    &__img{
+        background-image: url("../../img/me.png");
+        width: 430px;
+        height: 438px;
+        background-repeat: no-repeat;
+        // margin-right: 327px;
+        max-width: 100%;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    &__description{
+        width: 456px;
+    }
+}
