@@ -1,0 +1,11 @@
+.skills{
+    max-width: 915px;
+    margin: 0 auto;
+    &__devider{
+        background-image: url("../../img/Component16.png");
+        height:5px;
+    }
+    &__languages{
+        height:833px;
+    }
+}

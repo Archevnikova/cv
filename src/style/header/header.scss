@@ -2,9 +2,11 @@
 
 .header{
     &__navigation{
-        padding-top:95px;
-        padding-bottom: 147px;
+        padding-top: 158px;
+        padding-bottom: 46px;
     }
+    
+    
     &__img{
         display: flex;
         justify-content: center;
@@ -12,24 +14,29 @@
         background-image: url("./../../img/avatar.png");
         background-repeat: no-repeat;
         width: 615px;
-        height: 859px;
+        height: 566px;
     }
     &__text{
         text-align: center;
-    }
+        font-size: 37px;
+        &_h1{
+            font-size: 64px;
+            text-align: center;
+            margin: -8px 5px -29px 5px;
+        }
+        }
+    
     &__description{
         margin: 0 auto;
         text-align: center;
     }
     &__btn{
-        padding-top: 45px;
-        text-align: center;
-        & > a:nth-child(1){
-            margin-right: 76px; 
-        }
+        display: flex;
+        justify-content: space-around;
     }
-
 }
+
+
 
 
 

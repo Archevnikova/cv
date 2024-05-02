@@ -1,0 +1,30 @@
+.contact{
+    max-width: 915px;
+    margin: 0 auto;
+    &__devider{
+        background-image: url("../../img/Component16.png");
+        height:5px;
+    }
+    &__img{
+        background-image: url("/src/img/Group\ 93.png");
+        width:450px;
+        height: 450px;
+    }
+    &__card{
+        display:flex;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+        margin-top:128px;
+        margin-left: 109px;
+    }
+    &__input{
+        background: #21262b;
+        color:white;
+        border-radius: 30px;
+        border-style: none;
+        line-height: 5em;
+        margin-bottom: 30px;
+    }
+}

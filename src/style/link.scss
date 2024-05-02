@@ -3,7 +3,19 @@
     color:white;
     border-radius: 30px;
     border-style: none;
-    padding:18px 27px;
+    padding:15px 27px;
     cursor: pointer;
     text-decoration: none;
+    font-size: 22px;
+    display:block;
+    text-align: center;
+    width:148px;
+
+    &:hover{
+        background-color: #7733FF;
+    }
+}
+.line{
+    display: block
+    ;
 }

@@ -2,6 +2,7 @@
 
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyPlugin = require("copy-webpack-plugin");
 
 const isProduction = process.env.NODE_ENV == 'production';
 
@@ -11,11 +12,18 @@ const stylesHandler = 'style-loader';
 
 
 const config = {
+    mode:"none",
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
     },
     devServer: {
+        static: {
+        directory: path.join(__dirname, 'docs'),
+        },
+        compress: true,
+        port: 9000,
+        hot: true,
         open: true,
         host: 'localhost',
     },
@@ -24,6 +32,11 @@ const config = {
             template: 'index.html',
         }),
 
+        new CopyPlugin({
+            patterns: [
+                { from: "./src/img", to: "img/[name][ext]" },
+            ],
+        }),
         // Add your plugins here
         // Learn more about plugins from https://webpack.js.org/configuration/plugins/
     ],
@@ -40,6 +53,7 @@ const config = {
             {
                 test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
                 type: "asset/inline",
+                 
             },
 
             // Add your rules for custom modules here

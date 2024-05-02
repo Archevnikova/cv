@@ -12,23 +12,55 @@
         &-link{
             width:254px;
             display:block;
-            &:hover{
-                background-color: #7733FF;
-            }
+            
         }
         
 
     }
-    &__divider{
-        background-image: url("../../img/Component\ 16.png");
-        height:5px;
-    }
+    // &__divider{
+    //     background-image: url("../../img/Component 16.png");
+    //     height:5px;
+        
+    // }
     &__header{
         width:100%;
         display: flex;
         flex-direction: column;
     }
-    
+    &__list{
+        display:flex;
+        margin-top:136px;
+    }
+    &__links-img{
+        // background-image: url("/src/img/koshish.png");
+        background-repeat: no-repeat;
+        width:300px;
+        height: 200px;
+        // padding-top:50px;
+        
+    }
+    &__links-img:nth-child(2){
+        // background-image: url("/src/img/koshish2.png");
+        background-repeat: no-repeat;
+        width:300px;
+        height: 200px;
+
+    }
+    &__links-img:nth-child(3){
+        // background-image: url("/src/img/koshish3.png");
+        background-repeat: no-repeat;
+        width:300px;
+        height: 200px;
+
+    }
+    &__card{
+        // background-image: url("/src/img/Component\ 9.png");
+        background-repeat: no-repeat;
+        width:800px;
+        height: 600px;
+    }
 }
+
+
 
 

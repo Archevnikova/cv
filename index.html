@@ -9,21 +9,21 @@
     <title>резюме</title>
 </head>
 <body>
-    <div class="container">
-        <header>
+    <header>
+        <div class="container">
             <section class="header">
                 <nav class="header__navigation">
-                    <ul class="navigation__item">
-                        <li class=" navigation__list"><a class="link"href="#">Контакты</a></li>
-                        <li class=" navigation__list"><a class="link" href="#">Резюме</a></li>
-                        <li class=" navigation__list"><a class="link" href="#">Обо мне</a></li>
-                        <li class=" navigation__list"><a class="link" href="#">Сертификаты</a></li>
-                        <li class=" navigation__list"><a class="link" href="#">Проекты</a></li>
+                    <ul class="navigation__list">
+                        <li class=" navigation__item"><a class="link"href="#">Contact</a></li>
+                        <li class=" navigation__item"><a class="link" href="#">Resume</a></li>
+                        <li class=" navigation__item"><a class="link" href="#">About </a></li>
+                        <li class=" navigation__item"><a class="link" href="#">Certificate</a></li>
+                        <li class=" navigation__item"><a class="link" href="#">Projects</a></li>
                     </ul>
                 </nav>
                 <div class="header__img"></div>
                 <h2 class="header__text"> Hey </h2>
-                <h1 class="header__text">I'm Ekaterina </h1>
+                <h1 class="header__text_h1">I'm Ekaterina </h1>
                 <h2 class="header__text">frontend <span>developer |</span></h2>
                 <p class="header__description">A highly motivated student studying Artificial Intelligence and Machine Learning.<br> 
                     Actively seeking opportunities to apply my skills and knowledge<br>
@@ -32,8 +32,10 @@
                     <a class="link" href="#">Contact me</a>
                 </div>
             </section>
-        </header>
-        <main>
+        </div>    
+    </header>
+    <main>
+        <div class="container">
             <section class="about-me">
                 <div class="about-me__img">
                     <!-- <img src="img/me.png"> -->
@@ -50,7 +52,7 @@
             <section class="projects">
                 <div class="projects__header">
                     <h2>Projects</h2>         
-                    <div class="projects__divider"><!-- <img src="img\Component 16.png"> --></div>
+                    <div class="projects__divider"><img class="line" src="./img/Component16.png"></div>
                 </div>
                 <div class="projects__btn">
                     <a class="link projects__btn-link" href="#">HTML</a>
@@ -59,17 +61,38 @@
                 </div>
                 <div class="projects__list">
                     <div class="projects__links">
-                        <div class="projects__links-img"><!-- <img src="img/koshish.png"> --></div>
-                        <div class="projects__links-img"><!-- <img src="img/koshish2.png"> --></div>
+                        <div class="projects__links-img"><img src = "./img/koshish.png"></div> 
+                        <div class="projects__links-img"><img src="./img/koshish2.png"></div>
+                        <div class="projects__links-img"><img src = "./img/koshish3.png"></div> 
                     </div>
-                    <div class="projects__card"></div>
+                    <div class="projects__card"><img src = "./img/Component 9.png"></div>
                 </div>
-
             </section>
-        </main>
-        <footer>
-        </footer>
-    </div>
+            <section class="skills">
+                <h2>Skills</h2>
+                <div class="skills__devider"></div>
+                <div class="skills__languages">
+                    <div class="skills__galery">
+
+                    </div>
+                </div>
+            </section>
+            <section class = "contact">
+                <h2>Contact Me</h2>
+                <div class="contact__devider"></div>
+                    <div class="contact__card">
+                        <div class="contact__img"></div>
+                        <div class="contact__form">
+                            <input type="text" class="contact__input" value="Name*"  size=" 50">
+                            <input type="text" class="contact__input" value="Email*">
+                            <input type="text" class="contact__input" value="Message*">
+                        </div>
+                    </div>
+            </section>
+        </div>    
+    </main>
+    <footer>
+    </footer>
     <script src="sccript.js"></script>
 </body>
 </html>
