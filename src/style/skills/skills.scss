@@ -1,11 +1,66 @@
 .skills{
     max-width: 915px;
     margin: 0 auto;
+    &__header{
+        text-align: end;
+    }
     &__devider{
-        background-image: url("../../img/Component16.png");
-        height:5px;
+    margin-bottom: 87px;
     }
     &__languages{
-        height:833px;
+        height:629px;
+        &-btn{
+            width:254px;
+            margin: 0 auto;
+            margin-bottom: 55px;
+            
+        }
     }
+    &__galery{
+        display:flex;
+        justify-content: space-between;
+    }
+    &__btn{
+        position:relative;
+        width:40px;
+        height:60px;
+        background-color: #232732;
+        border-radius: 11px;
+        border:none;
+        top: 150px;
+        cursor: pointer;
+        &:hover{
+            box-shadow: 5px 5px 5px rgb(137, 137, 144);
+        }
+        &-left{
+            display: block;
+            height: 30px;
+            width: 30px;
+            border: inherit;
+            position: absolute;
+            bottom: 14px;
+            left: calc(50% - 9px);
+            clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+            transform: rotate(45deg);
+            border-radius: 0 0 0 0.25em;
+            border-radius: 5px;
+            background-color: #7733FF;
+        }
+        &-right{
+        display: block;
+        height: 30px;
+        width: 30px;
+        border: inherit;
+        position: absolute;
+        bottom: 14px;
+        left: calc(50% - 22px);
+        clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+        transform: rotate(-136deg);
+        border-radius: 0 0 0 0.25em;
+        border-radius: 5px;
+        background-color: #7733FF;
+        }
+        
+    }
+    
 }

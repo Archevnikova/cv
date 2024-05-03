@@ -21,7 +21,9 @@
                         <li class=" navigation__item"><a class="link" href="#">Projects</a></li>
                     </ul>
                 </nav>
-                <div class="header__img"></div>
+                <div class="header__img">
+                    <img src ="./img/avatar.png">
+                </div>
                 <h2 class="header__text"> Hey </h2>
                 <h1 class="header__text_h1">I'm Ekaterina </h1>
                 <h2 class="header__text">frontend <span>developer |</span></h2>
@@ -38,7 +40,7 @@
         <div class="container">
             <section class="about-me">
                 <div class="about-me__img">
-                    <!-- <img src="img/me.png"> -->
+                    <img src="./img/about.png">
                 </div>
                 <div class="about-me__description">
                     <h2 class="about-me__header">About me</h2>
@@ -52,7 +54,8 @@
             <section class="projects">
                 <div class="projects__header">
                     <h2>Projects</h2>         
-                    <div class="projects__divider"><img class="line" src="./img/Component16.png"></div>
+                    <div class="projects__divider">
+                        <img class="line" src="./img/Component16.png"></div>
                 </div>
                 <div class="projects__btn">
                     <a class="link projects__btn-link" href="#">HTML</a>
@@ -61,19 +64,40 @@
                 </div>
                 <div class="projects__list">
                     <div class="projects__links">
-                        <div class="projects__links-img"><img src = "./img/koshish.png"></div> 
-                        <div class="projects__links-img"><img src="./img/koshish2.png"></div>
-                        <div class="projects__links-img"><img src = "./img/koshish3.png"></div> 
+                        <div class="projects__links-img">
+                            <img src = "./img/Rectangle 62.png">
+                        </div> 
+                        <div class="projects__links-img">
+                            <img src="./img/Rectangle 63.png">
+                        </div>
+                        <div class="projects__links-img">
+                            <img src = "./img/Rectangle 64.png">
+                        </div> 
                     </div>
-                    <div class="projects__card"><img src = "./img/Component 9.png"></div>
+                    <div class="projects__card">
+                        <img class = "projects__card-img"src = "./img/Rectangle 65.png">
+                        <h2 class="projects__card-header">HTMl</h2>
+                        <p class="projects__card-description">There will be some description here</p>
+                        <a href="#" class="projects__card-git"><img src="./img/Vector.png"></a>
+                    </div>
                 </div>
             </section>
             <section class="skills">
-                <h2>Skills</h2>
-                <div class="skills__devider"></div>
+                <h2 class="skills__header">Skills</h2>
+                <div class="skills__devider">
+                    <img src="./img/Component16.png">
+                </div>
                 <div class="skills__languages">
+                    <button class="link skills__languages-btn">Languages</button>
                     <div class="skills__galery">
-
+                        <div class="skills__left-btn">
+                            <button class="skills__btn"><span class="skills__btn-left"></button>
+                            </div>
+                        <div class="skills__imgs">
+                            <img src = "./img/Rectangle 76.png"></div>
+                        <div class="skills__right-btn">
+                            <button class="skills__btn"><span class="skills__btn-right"></span></button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -81,11 +105,14 @@
                 <h2>Contact Me</h2>
                 <div class="contact__devider"></div>
                     <div class="contact__card">
-                        <div class="contact__img"></div>
+                        <div class="contact__img">
+                            <img src="./img/contact.png">
+                        </div>
                         <div class="contact__form">
                             <input type="text" class="contact__input" value="Name*"  size=" 50">
                             <input type="text" class="contact__input" value="Email*">
-                            <input type="text" class="contact__input" value="Message*">
+                            <textarea class="contact__input">Message*</textarea>
+                            <button class="link">Send</button>
                         </div>
                     </div>
             </section>

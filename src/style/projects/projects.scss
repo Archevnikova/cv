@@ -1,26 +1,22 @@
 .projects{
     max-width: 915px;
     margin: 0 auto;
+    margin-bottom: 164px;
     &__btn{
         margin-top: 76px;
         text-align: center;
         display:flex;
         & > a:nth-child(2){
-            margin: 0px 61px 0px 61px; 
-
+            margin: 0px 61px 0px 61px;
         }
         &-link{
             width:254px;
             display:block;
-            
         }
-        
-
     }
     // &__divider{
     //     background-image: url("../../img/Component 16.png");
-    //     height:5px;
-        
+    //     height:5px; 
     // }
     &__header{
         width:100%;
@@ -32,32 +28,39 @@
         margin-top:136px;
     }
     &__links-img{
-        // background-image: url("/src/img/koshish.png");
         background-repeat: no-repeat;
         width:300px;
         height: 200px;
-        // padding-top:50px;
-        
+
     }
     &__links-img:nth-child(2){
-        // background-image: url("/src/img/koshish2.png");
         background-repeat: no-repeat;
         width:300px;
         height: 200px;
-
     }
     &__links-img:nth-child(3){
-        // background-image: url("/src/img/koshish3.png");
         background-repeat: no-repeat;
         width:300px;
         height: 200px;
-
     }
     &__card{
-        // background-image: url("/src/img/Component\ 9.png");
-        background-repeat: no-repeat;
+        background-color:#21262b;
         width:800px;
         height: 600px;
+        text-align: center;
+        border-radius: 20px;
+        &-img{
+            padding-top: 32px;
+        }
+        &-header{
+        
+        }
+        &-description{
+        
+        }
+        &-git{
+          
+        }
     }
 }
 
