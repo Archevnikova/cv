@@ -10,6 +10,7 @@ import "./style/skills/skills.scss";
 import "./style/contact/contact.scss";
 import { message } from "./js/constanta";
 import Typed from "typed.js";
+import "./js/contacts";
 
 let typed = 999;
  
