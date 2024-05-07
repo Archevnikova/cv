@@ -15,9 +15,13 @@
         max-width: 100%;
         background-size: cover;
         background-position: center;
-        
+        border-radius: 40px;
+        &:hover{
+            box-shadow: 10px 4px 5px 2px #424e5a;
+        }
     }
     &__description{
-        width: 456px;
+        width: 570px;
+        padding: 0px 40px 5px 58px;
     }
 }

@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container container__header">
             <section class="header">
                 <nav class="header__navigation">
                     <ul class="navigation__list">
@@ -25,9 +25,10 @@
                     <img src ="./img/avatar.png">
                 </div>
                 <h2 class="header__text"> Hey </h2>
+                <div id="info">hey</div>
                 <h1 class="header__text_h1">I'm Ekaterina </h1>
                 <h2 class="header__text">frontend <span>developer |</span></h2>
-                <p class="header__description">A highly motivated student studying Artificial Intelligence and Machine Learning.<br> 
+                <p class="header__description">A highly motivated student studying HTML CSS JavaScript and web development. <br> 
                     Actively seeking opportunities to apply my skills and knowledge<br>
                     to real-world projects and contribute to the advancement of the industry.</p>
                 <div class="header__btn">
@@ -37,7 +38,7 @@
         </div>    
     </header>
     <main>
-        <div class="container">
+        <div class="container container__main">
             <section class="about-me">
                 <div class="about-me__img">
                     <img src="./img/about.png">
@@ -109,8 +110,8 @@
                             <img src="./img/contact.png">
                         </div>
                         <div class="contact__form">
-                            <input type="text" class="contact__input" value="Name*"  size=" 50">
-                            <input type="text" class="contact__input" value="Email*">
+                            <input type="text" class="contact__input" placeholder="Name*"  size=" 50">
+                            <input type="text" class="contact__input" placeholder="Email*">
                             <textarea class="contact__input">Message*</textarea>
                             <button class="link">Send</button>
                         </div>
@@ -121,5 +122,7 @@
     <footer>
     </footer>
     <script src="sccript.js"></script>
+    <script src = "src/index.js"></script>
+    <script src ="src/js/constanta.js"></script>
 </body>
 </html>
