@@ -6,8 +6,8 @@
     color:white;
     // border-radius: 50px;
 
-    border:2px solid grey;
-    border-color: linear-gradient(45deg, rgb(167, 179, 176) 26%, rgb(220, 235, 235) 70%);
+    // border:2px solid grey;
+    // border-color: linear-gradient(45deg, rgb(167, 179, 176) 26%, rgb(220, 235, 235) 70%);
     &__main{
         border-bottom-left-radius: 40px;
         border-bottom-right-radius: 40px;
@@ -21,7 +21,12 @@
 span{
     color:#D32D20;
 }
-
+.calc{
+    width: 150px;
+}
+.cosmo{
+    width:240px;
+}
 
 
 

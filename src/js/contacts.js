@@ -23,6 +23,7 @@ submitButton.onclick =  function() {
         text
     }
     const bodyString = JSON.stringify(bodyJSON);
+    debugger;
     const response =  fetch (`https://api.telegram.org/bot6516918195:AAEAU_MFCy35rhDT-jzffsG6GApAc0qe_C8/sendMessage`,{
         method:"POST",
         body:bodyString,
