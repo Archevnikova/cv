@@ -31,6 +31,6 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "copy-webpack-plugin": "^12.0.2",
-    "typed.js": "^2.1.0"
+    "typed.js": "^2.0.12"
   }
 }
