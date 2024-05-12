@@ -11,52 +11,40 @@
 <body>
     <header>
         <div class="container container__header">
-            <section class="header">
+            <section class="header"> 
                 <nav class="header__navigation">
                     <ul class="navigation__list">
-                        <li class=" navigation__item"><a class="link"href="#">Contact</a></li>
-                        <li class=" navigation__item"><a class="link" href="#">Resume</a></li>
-                        <li class=" navigation__item"><a class="link" href="#">About </a></li>
-                        <li class=" navigation__item"><a class="link" href="#">Certificate</a></li>
-                        <li class=" navigation__item"><a class="link" href="#">Projects</a></li>
+                        <li class=" navigation__item" ><a class="link"href="#contact" >Contact</a></li>
+                        <!-- <li class=" navigation__item"><a class="link" href="#">Resume</a></li> -->
+                        <li class=" navigation__item"><a class="link" href="#about">About </a></li>
+                        <!-- <li class=" navigation__item"><a class="link" href="#">Certificate</a></li> -->
+                        <li class=" navigation__item"><a class="link" href="#projects">Projects</a></li>
                     </ul>
                 </nav>
                 <div class="header__img">
                     <img src ="./img/avatar.png">
                 </div>
                 <h2 class="header__text"> Hey </h2>
-                <div id="info">hey</div>
+                <!-- <div id="info">hey</div> -->
                 <h1 class="header__text_h1">I'm Ekaterina </h1>
-                <h2 class="header__text">frontend <span>developer |</span></h2>
-                <p class="header__description">A highly motivated student studying HTML CSS JavaScript and web development. <br> 
+                <h2 class="header__text" >frontend <span id="#info"></span></h2>
+                <!-- <p class="header__description">A highly motivated student studying HTML CSS JavaScript and web development. <br> 
                     Actively seeking opportunities to apply my skills and knowledge<br>
-                    to real-world projects and contribute to the advancement of the industry.</p>
-                <div class="header__btn">
+                    to real-world projects and contribute to the advancement of the industry.</p> -->
+                <!-- <div class="header__btn">
                     <a class="link" href="#">Contact me</a>
-                </div>
+                </div> -->
             </section>
         </div>    
     </header>
     <main>
         <div class="container container__main">
-            <section class="about-me">
-                <div class="about-me__img">
-                    <img src="./img/about.png">
-                </div>
-                <div class="about-me__description">
-                    <h2 class="about-me__header">About me</h2>
-                    <p>I am actively seeking opportunities to apply my acquired skills and knowledge to 
-                        real-world projects. My educational background has equipped me with a solid foundation in
-                         AI and ML algorithms, data analysis, and programming languages such as Python.
-                          Additionally, I have gained practical experience through hands-on projects, both 
-                          independently and collaboratively.</p>
-                </div>
-            </section>
-            <section class="projects">
+            <section class="projects" id="projects">
                 <div class="projects__header">
                     <h2>Projects</h2>         
                     <div class="projects__divider">
-                        <img class="line" src="./img/Component16.png"></div>
+                        <img class="line" src="./img/Component16.png">
+                    </div>
                 </div>
                 <div class="projects__btn">
                     <a class="link projects__btn-link" href="#">HTML</a>
@@ -71,9 +59,9 @@
                         <div class="projects__links-img">
                             <img  class="cosmo"src="./img/cosmotur.png">
                         </div>
-                        <div class="projects__links-img">
+                        <!-- <div class="projects__links-img">
                             <img src = "./img/Rectangle 64.png">
-                        </div> 
+                        </div>  -->
                     </div>
                     <!-- <template class="projects__template"> -->
                         <div class="projects__card">
@@ -83,6 +71,23 @@
                             <a href="#" class="projects__card-git"><img src="./img/Vector.png"></a>
                         </div>
                     <!-- </template>      -->
+                </div>
+                
+            </section>
+            <section class="about-me" id="about">
+                <div class="about-me__img">
+                    <img src="./img/about.png">
+                </div>
+                <div class="about-me__description">
+                    
+                    <h2 class="about-me__header">About me</h2>
+                    <p>My path to IT began a few months ago when I realized that my love 
+                        technology and creativity can be perfectly combined in the development of websites. 
+                       I have a university degree, a passion for learning and a desire for self-development. 
+                       I am ready to immerse myself in this world where code is my new best friend, I am ready to learn quickly,
+                        accept challenges, look for creative solutions and strive for excellence in every project. I am convinced
+                         that my motivation and enthusiasm will help me become 
+                       a valuable member of the team.Let's do something cool together!.</p>
                 </div>
             </section>
             <section class="skills">
@@ -97,17 +102,17 @@
                             <button class="skills__btn left"><span class="skills__btn-left"></button>
                         </div>
                         <div class="skills__imgs">
-                            <img class = "skills__imgs-picture"src = "./img/Rectangle 76.png">
-                            <img  class = "skills__imgs-picture"src=" ./img/Rectangle 62.png">
-                            <img class = "skills__imgs-picture"src="./img/Rectangle 63.png">
+                            <img src = "./img/Rectangle 76.png">
+                            <!-- <img src=" ./img/Rectangle 62.png">
+                            <img src="./img/Rectangle 63.png"> -->
                         </div>
                         <div class="skills__right-btn">
                             <button class="skills__btn right"><span class="skills__btn-right"></span></button>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class = "contact">
+            </section> 
+            <section class = "contact" id="contact" > 
                 <h2>Contact Me</h2>
                 <div class="contact__devider"></div>
                     <div class="contact__card">
@@ -129,5 +134,6 @@
     <script src="sccript.js"></script>
     <script src = "src/index.js"></script>
     <script src ="src/js/constanta.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/polyglot.js/2.2.2/polyglot.min.js"></script>
 </body>
 </html>

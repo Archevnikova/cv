@@ -13,11 +13,11 @@ import Typed from "typed.js";
 import "./js/contacts.js";
 import "./js/project.js";
 import "./js/gallery.js";
-
+import "./js/text.js";
 
 let typed = 999;
  
-function showHideText (n) {
+function showText(n) {
     if (n == 1)  {
          if (typed == 999){
            typed = new Typed('#info', {
