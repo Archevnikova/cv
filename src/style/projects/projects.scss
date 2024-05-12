@@ -6,18 +6,13 @@
         margin-top: 76px;
         text-align: center;
         display:flex;
-        & > a:nth-child(2){
-            margin: 0px 61px 0px 61px;
+        justify-content: space-between;
         }
         &-link{
             width:254px;
             display:block;
         }
-    }
-    // &__divider{
-    //     background-image: url("../../img/Component 16.png");
-    //     height:5px; 
-    // }
+    
     &__header{
         width:100%;
         display: flex;
@@ -63,15 +58,7 @@
             padding-top: 32px;
             width: 192px;
         }
-        &-header{
         
-        }
-        &-description{
-        
-        }
-        &-git{
-          
-        }
     }
 }
 

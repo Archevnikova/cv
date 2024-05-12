@@ -22,18 +22,24 @@ span{
     color:#D32D20;
 }
 .calc{
-    width: 154px;
-    margin: 17px 42px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    &:hover{
+        box-shadow: 4px 4px 5px 4px #ae7c35;
+    }
 }
 .cosmo{
-    width: 244px;
+    width: 200px;
+    height: 200px;
     border-radius: 100px;
-    margin: 11px 3px;
+    &:hover{
+        box-shadow: 4px 4px 5px 4px #7c98b5;
+    }
 }
-
-.show{
-
-}
+// .active{
+//     background-color:#7733FF;
+// }
 
 
 
