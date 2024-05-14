@@ -12,12 +12,14 @@ calcBtn.onclick = function(){
     cardImg.src = "./img/calc2.png";
     cardDescription.textContent = "Made using Jquery HTML CSS JavaScript";
     linkBtn.href = "https://github.com/Archevnikova/-iphone-calculator";
-    
+    for (let i = 0; i < projectBtn.length; i++){
+        projectBtn[i].style.backgroundColor = "#21262b";
+    }
 
     
-    // for (let i = 0; i <= projectBtn.length; i++){
-    //     projectBtn[i].style.backgroundColor = "#7733FF";
-    // }
+    for (let i = 0; i < projectBtn.length; i++){
+        projectBtn[i].style.backgroundColor = "#7733FF";
+    }
 
 };
 cosmoBtn.onclick = function(){
@@ -25,4 +27,15 @@ cosmoBtn.onclick = function(){
     cardImg.src = "./img/cosmotur.png";
     cardDescription.textContent = "Only HTML CSS";
     linkBtn.href= "https://github.com/Archevnikova/cosmo";
+
+
+    for (let i = 0; i < projectBtn.length; i++){
+        projectBtn[i].style.backgroundColor = "#21262b";
+    }
+
+    for (let i = 0; i <= projectBtn.length; i++){
+        if(i >= 2 ) break;
+        projectBtn[i].style.backgroundColor = "#7733FF";
+    }
+    
 }
