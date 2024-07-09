@@ -1,10 +1,11 @@
 @import url("./navigation.scss");
 
 .header{
-    padding-bottom: 154px;
+    padding-bottom: 8px;
+
     &__navigation{
-        padding-top: 158px;
-        padding-bottom: 46px;
+        padding-top: 34px;
+        padding-bottom: 50px;
     }
     
     
@@ -12,22 +13,25 @@
         display: flex;
         justify-content: center;
         margin: 0 auto;
-        // background-image: url("./../../img/avatar.png");
-        // background-repeat: no-repeat;
-        width: 615px;
-        height: 566px;
-        border-radius: 250px;
-        // &:active{
-        //     box-shadow: 10px 4px 5px 2px #424e5a;
-        // }
+        
+        // width: 615px;
+        height: 366px;
+        // border-radius: 250px;
+        &-me{
+            border-radius: 250px;
+            margin-right: 30px;
+        }
     }
     &__text{
         text-align: center;
         font-size: 37px;
+        &-container{
+            display: flex;
+        }
         &_h1{
-            font-size: 64px;
+            font-size: 36px;
             text-align: center;
-            margin: -8px 5px -29px 5px;
+            margin: -44px 5px -29px 5px;
         }
         }
     
